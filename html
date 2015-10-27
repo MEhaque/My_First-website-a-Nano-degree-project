@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Haques Web site, a nano degree project</title>
+		<link rel="stylesheet" type="text/css" href="my_style.css">
+	</head>
+	<body>
+		<h1>The Basics of Web and HTML</h1>
+		<div class="lesson">
+			<h2>Lesson 1:Concepts and Overview of The Web</h2>
+		  <div class="concept">
+				<div class="concept-title">
+				  How web Works
+				</div>
+					<div class="concept-description">
+						<p>
+							The web is a bunch of computers that communicate wiht each other, when a person goes to a web page, his computer sends a <em>HTTP</em> request to a <em>server</em>.The server finds the appropriate HTML document and sends it back to the user's computer and a <em>web browser</em> interprets the page and displays it out on the user's screen.
+						</p>
+				  </div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+					HTML
+				</div>
+				 	<div class="concept-description">
+						 <p>
+						 	HTML stands for <em>Hypertext Markup Language</em>. HTML documents form the majority of the content on the web. HTML made up of:</p>
+						 	<ul>
+						 	 <li><em>text content</em>-what you see,</li>
+						 	 <li><em> markup</em>-what it looks like,</li>
+						 	 <li><em>references</em> to other documents e.g. images and videos,</li>
+						 	 <li><em> links</em> to other pages.</li>
+						 	</ul>
+						 <p>
+						 	HTML documents are made of HTML <em>elements</em>, each elements has an opening and closing <em>tags</em>, which looks like this: <b>&lt; Tag &gt; Contents &lt;/ Tag &gt;</b>
+						 </p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+					How Coding Works
+				</div>
+					<div class="concept-description">
+						<p>
+							Coding happens when programmers write text in a language that a computer can understand. The computer can then follow the instructions the programmer wrote. For example, when grogrammer write I'm &lt;b &gt;learning &lt;/b &gt; to code!, will looks like: I'm <b>learning</b> to code!
+						</p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Basic HTML Tags
+				</div>
+					<div class="concept-description">
+						<p>
+						As we mention above Markups are made up of <em>"Tags"</em>:<br>
+						we can <b>bold</b> text using &lt;b &gt;<br>
+						we can <em>Italicize</em> text using &lt;em &gt;<br>
+						Here's a list of common HTML tags:<br>
+						<img src="http://www.webdesignmash.com/trial/wp-content/uploads/2013/04/HTML-Tags.jpg" alt="Common HTML tags">
+					  </p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Inline vs Block elements
+				</div>
+					<div class="concept-description">
+						<p>
+							HTML elements are either <em>inline</em> or <em>block </em>. Block elements form an "invisible box" around the content inside of them. while inline elements simply continue the line without splitting the data onto separate lines. for example:<br>
+							<b>&lt;br &gt;</b> is a single inline break, which ends a line and wrap to the next line, It is a "void" tag which doesn't require a closing tag.<br>
+							<b>&lt;p &gt;</b> tag creates a block paragraph, creating an invisible box around the text, p tag reqquire a closing tag.
+						</p>.
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Container Elements: span & Div
+				</div>
+					<div class="concept-description">
+						<p>
+							Both these elements contain content, and can have style attached to them via CSS to change the way the text will look/ their layout in the document.<br>
+							<b>&lt;span &gt;</b>: creates an inline break, similar to the BR tag<br>
+							<b>&lt;div &gt;</b>: DIV creates another block, similar to the P tag for paragraph text.
+						</p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Computers are Stupid
+				</div>
+					<div class="concept-description">
+						<p>
+							Computers are <em>stupid</em> because they interpret instructions literally. A small mistake by a programmer can cause huge problems in a program.
+						</p>
+					</div>
+			</div>
+		</div>
+		<div class="lesson">
+			<h2>Lesson 2: Creating a Structured Document with HTML</h2>
+			<div class="concept">
+				<div class="concept-title">
+				  HTML, CSS & Javascript
+				</div>
+					<div class="concept-description">
+						<p>
+						  HTML, CSS & Javascript are 3 langugages serving different purposes when developing a webpage.<br>
+						  using the analogy of a house...<br>
+						</p>
+						  <ul>
+						  	<li><b>HTML</b>: Hyper Text Markup Language is the standard markup language used to create web pages.HTML creates the structure of a web page (think like structure of a house)</li>
+						  	<li><b>CSS</b>:Cascading Style Sheets- used for describing the look and formatting of a web page. CSS creates style in a webpage, such as font size, colors, thickness of borders etc (like decoration of a house)</li>
+						  	<li><b>Javascript</b>: this language is used to create interactive components in a webpage.(like remotes or garage doors need to perform actions)</li>
+						  </ul>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Document Object Model
+				</div>
+					<div class="concept-description">
+						<p>
+							<b>Document Object Model</b>: a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.<br>
+							When programmers talk about the <b>DOM</b>, they are talking about the tree-like structure of a webpage. DOM converts an HTML tag into an element that the browser uses to create a page.
+						</p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Using HTML to "Boxify"
+				</div>
+					<div class="concept-description">
+						<p>
+							Everything on a webpage is organized in "Boxes" or rectangular sections. This gives developers the flexibility to rearrange content easily on a webpage, and helps them <em>"Boxify"</em> or break down a given graphic design into various boxes.<br>
+							When coding a webpage, you can build the structure of the page using <b>Div</b> and <b>Span</b> elements. Use DIV to boxify a section, and use SPAN to add style to in-line elements. Within each element, you can include <b>Class Attributes</b> to help you label each box.
+						</p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Text Editors (for programming)
+				</div>
+					<div class="concept-description">
+						<p>
+							When writing code, programmers use special text editors (like Sublime Text or Codepen). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+						</p>
+					</div>
+			</div>
+		</div>
+		<div class="lesson">
+			<h2>Lesson 3:Adding CSS Style to HTML Structure</h2>
+			<div class="concept">
+				<div class="concept-title">
+				   CSS
+				</div>
+					<div class="concept-description">
+						<p>
+							CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same <em>class</em> name and then specifying the style that should apply to that class. several ways we can add CSS style to HTML file. A great resource to learn new CSS properties is: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla CSS referance page</a>
+						</p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Benefits of CSS Avoiding Repetition
+				</div>
+					<div class="concept-description">
+						<p>
+							Using CSS to avoid repetition is very important for a number of reasons. The programmer becomes more <b>efficient</b> because they do not have to write the same thing multiple times. Hence there is less code to write and it's more readable. If the programmer is copying and pasting certain style attributes into many HTML elements it can possible lead to errors when the programmer decides to modify something.<br>
+							With CSS, the programmer can assign multiple elements the same class and then specify a style for that class. in only one location. Giving every one of those element the same <b>Consistent</b> look and being able to easily modify the style and avoiding repetition.
+						</p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  The Box Model
+				</div>
+					<div class="concept-description">
+							Each HTML "box" has 4 elements: margin, border, padding & content.
+							<ul>
+								<li>Content: Image or text on the website. Think of it as the nucleus</li>
+								<li>Padding: Clears an area around the content.</li>
+								<li>Border: Goes around padding and content. Color inherited from the color property of the box.</li>
+								<li>Margin: Clears an area around the border. Doesn't have a background color, completely transparent. Think of as space between boxes.</li>
+							</ul>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Box Sizing
+				</div>
+					<div class="concept-description">
+						<p>
+							With 4 components to each box, it can often be hard to get the accurate size of a box. Use two techniques to deal with sizes:
+							<ol>
+								<li>Set sizes in terms of percentages rather than pixels.</li>
+								<li>Set the box-sizing attribute to border-box for every element.</li>
+							</ol><br>
+							Use this CSS code to ensure your box sizing is displayed accurately in all browsers (Safari, Mozilla, Microsoft IE)<br>
+							 *<b>{<br>
+								  -webkit-box-sizing: border-box;<br>
+								  -moz-box-sizing: border-box;<br>
+								  -ms-box-sizing: border-box;<br>
+								   box-sizing: border-box;<br>
+  							}</b>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Box Positioning
+				</div>
+					<div class="concept-description">
+						<p>
+							As Divs are block elements, they take up the entire width of a page.to override this behavior and let divs appear next to each other your can add CSS rule: <b>display: flex;</b>. you can read more  about flexible boxes <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">here</a> <br>
+						</p>
+					</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+				  Code, Test & Refine
+				</div>
+					<div class="concept-description">
+							Write code, test & see how it looks vs the design mock up, make refinements and modifications so it looks closer to the design. Repeat this process until the page looks like the design. here are step we can take:
+							<ol>
+								<li>Look for natural boxes.</li>
+								<li>Look for repeated styles & semantic elements</li>
+								<li>Write your html</li>
+								<li>Apply styles (from biggest to smallest.)</li>
+								<li>Fix things. Developer tools in your web browser can also be a big help without messing with the html editor.</li>
+							</ol>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
