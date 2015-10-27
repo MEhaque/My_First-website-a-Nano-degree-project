@@ -1,0 +1,45 @@
+h1 {
+	text-align: center;
+	color: #1149CE;
+}
+
+/* selecting a font */
+body {
+font-family: Helvetica;
+padding: 20px 10px;
+max-width: 2000px;
+margin: 0 auto;
+font-size: 1.4em;
+background-color: #9AAFA1;
+}
+
+.lesson {
+	background-color: white;
+	border-radius: 20px;
+	color: hsla(0, 91%, 33%, 0.94);
+	padding: 10px;
+	margin: 10px auto;
+}
+h2 {
+	margin: 10px;
+}
+
+.concept {
+	background-color: #CDE4C9;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: black;
+}
+
+.concept-description {
+	font-weight: lighter;
+	margin: 6px;
+}
